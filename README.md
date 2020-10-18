@@ -1,27 +1,6 @@
-# School_District_Analysis
-Analysis of school district data
-
-## Overview of the school district analysis:
-Explain the purpose of this analysis.
-
-The purpose of this analysis is to review a local school district data with school and student information.  There was a raised concern that one of the schools, Thomas High School's ninth grade data appears to have been altered.  Using these provided sets of data and performing analysis using Python3, Pandas, and Numpy via Jupiter notebook, information can be cleaned and replaced.  Following the request instructions, ninth grade reading and math scores were replaced with NaNs and repeated the school district analysis to compare any affect to the overall analysis. 
-
-## Results:
-
-Using bulleted lists and images of DataFrames as support, address the following questions.
-
-- How is the district summary affected?
 - How is the school summary affected?
-- How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-- How does replacing the ninth-grade scores affect the following:
-    - Math and reading scores by grade
-    - Scores by school spending
-    - Scores by school size
-    - Scores by school type
 
+    - Before manipulating the data, Thomas High School's scores for % Passing Math = 66.91%, % Passing Reading = 69.66% and % Overall Passing = 65.08%.  After removing the 9th grade data and converting to NaN, the scores for Thomas High School was recalculated using only the remaining grades 10 - 12 data.  The new calculated scores for Thomas High School's % Passing Math = 93.19%, % Passing Reading = 97.19% and % Overall Passing = 90.63%.  This is an overall increase when the 9th grade data was removed.
 
-## Summary:
-Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
-
-
-There is a statement summarizing four major changes to the school district analysis after reading and math scores have been replaced (5 pt).
+Thomas High School 9th grade scores convert to NaN:
+![ThomasHS_9th_NaN.png] (https://github.com/EHuiMartinez/School_District_Analysis/blob/main/Resources/ThomasHS_9th_NaN.png)
