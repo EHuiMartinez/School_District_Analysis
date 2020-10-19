@@ -3,7 +3,7 @@ Analysis of school district data
 
 ## Overview of the school district analysis:
 
-The purpose of this analysis is to review a local school district data with school and student information.  There was a raised concern that one of the schools, Thomas High School's ninth grade data appears to have been altered.  Using these provided sets of data and performing analysis using Python3, Pandas, and Numpy via Jupiter notebook, information can be cleaned and replaced.  Following the request instructions, ninth grade reading and math scores were replaced with NaNs, updated school summary data frame and repeated the school district analysis to compare any affect to the overall analysis. 
+The purpose of this analysis is to review a local school district data with school and student information.  There was a raised concern that one of the schools, Thomas High School's ninth grade data appears to have been altered.  Using these provided sets of data and performing analysis using Python3, Pandas, and Numpy via Jupiter notebook, information can be cleaned and replaced.  Following the request instructions, ninth grade reading and math scores were replaced with NaNs, updated school summary data frame and repeated the school district analysis to compare any affect to the overall analysis. All analysis codes are included in file: PyCitySchools-Challenge.ipynb
 
 ## Results:
 
